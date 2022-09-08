@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, send_file, redirect, url_for, Response, redirect
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 import sys
 import os
