@@ -8,7 +8,7 @@ import os
 @app.route('/', methods=['GET', 'POST'])
 
 def Menu():
-    return render_template("home.html)
+    return render_template("home.html")
 
 if _name_ == "_main_":
    app.run(debug=True, host='0.0.0.0', port=8001)
